@@ -8,9 +8,9 @@ def convert_to_floats(rows):
     result = []
     # To-Do Loop through the list and convert row by row
     # a loop should be written 
-
+    for row in rows:
        value = np.asarray(row)
-       value = value.astype(np.float)
+       value = value.astype(np.float32)
 
        result.append(value)  # Vstack means we are adding a row
 
